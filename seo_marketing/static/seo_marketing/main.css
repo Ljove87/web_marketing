@@ -1,0 +1,135 @@
+body {
+    background: #ffffff;
+   
+}
+.wrapper {
+    background: url('http://pavbca.com/walldb/original/5/2/e/48792.jpg');
+    margin-top: 32px;
+    padding: 100px;
+}
+.bg-steel {
+    background-color: #073d3d;
+}
+
+.nav-link, .nav-item, a {
+    color: white;
+}
+
+.title {
+    font-weight: 400;
+    font-size: 26px;
+    color: #073d3d;
+}
+
+.form-headline {
+    background: #073d3d;
+    color: #ffffff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 8px;
+}
+.form {
+    border: 1px solid black;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.col {
+   margin-top: 27px;
+}
+
+.form-inside {
+    padding: 20px;
+}
+
+.vl {
+    border-left: 1px solid gray;
+    height: 350px;
+    margin-left: 15px;
+}
+
+input {
+    font-size: 15px;
+}
+
+.get-now {
+    font-size: 25px;
+    color: white;
+    padding: 5px;
+}
+.button1 {
+    background: #8E6719;
+    margin-top: 15px;
+} 
+
+.button1:hover {
+    background: #073d3d;
+}
+
+footer{
+    background: #073d3d;
+}
+.copyright {
+    background: #2e7070;
+}
+
+.container-fluid {
+    padding-right:0;
+    padding-left:0;
+}
+
+.footer {
+    color: white;
+ }
+
+.div-p {
+    color: rgb(53, 0, 0);
+    font-size: 16px;
+    margin-left: -20px;
+}
+
+hr {
+    height: 2px;
+    background: #073d3d;
+    margin-top: 50px;
+    width: 330px;
+}
+
+.first_section {
+    margin-top: 100px;
+}
+.second_section {
+    margin-top: 150px;
+} 
+
+.div_inside {
+    margin-bottom: 50px;
+}
+
+.image_section {
+    height: 120px;
+    width: 120px;
+    margin-left: 105px;
+}
+
+.display-4 {
+    font-size: 20px;
+}
+
+.text-info {
+    margin-top: 80px;
+    font-size: 28px;
+    margin-bottom: 50px;
+}
+
+.button-section {
+    color: #ffffff;
+    background-color: #073d3d;
+    width: 200px;
+    
+}
+.button-section:hover {
+    color: #073d3d;
+    border: 1px solid #073d3d;
+    background-color: #ffffff;
+}
