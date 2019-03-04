@@ -15,7 +15,8 @@
 {% for post in posts %}
     <div class="col-xl-4 mb-5">
             <div class="card" style="width: 18rem;">
-                <img src="{{ post.image.url }}" alt="blog_slika" class="card-img-top rounded article-img" style="height: 180px;">
+                <img src="{{ post.image.url }}" alt="blog_slika" class="rounded article-img" style="height: 180px;">
+                <p class="card-text mt-1 ml-1 text-center">Author : {{ post.author }}</p> <small class="text-muted ml-1 text-center">Date posted: {{ post.date_posted|date:"F d, Y" }}</small>
                 <div class="card-body">
                 <h5 class="card-title">{{ post.title }}</h5>
                 <p class="card-text">{{ post.content|truncatechars:180}}</p>
