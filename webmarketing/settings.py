@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'seo_marketing.apps.SeoMarketingConfig'
+    'seo_marketing.apps.SeoMarketingConfig',
 ]
 
 MIDDLEWARE = [
@@ -128,5 +128,13 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
+]
+
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+MEDIA_URL = '/media/'
+
+SEO_FOR_MODELS = [
+    '<app>.models.<Model>',
 ]
 
