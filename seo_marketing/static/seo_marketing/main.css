@@ -139,5 +139,11 @@ footer{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
+.boxshadow {
+    -webkit-box-shadow: 8px 15px 20px 0px rgba(207,207,207,1);
+    -moz-box-shadow: 8px 15px 20px 0px rgba(207,207,207,1);
+    box-shadow: 8px 15px 20px 0px rgba(207,207,207,1);
+}
+
  /* Columns equal height */
 
