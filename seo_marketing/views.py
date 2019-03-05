@@ -11,3 +11,9 @@ def blog_view(request):
     }
     return render(request, 'seo_marketing/blog_view.html', context)
 
+def contact_view(request):
+    return render(request, 'seo_marketing/contact_view.html' )
+
+def about_view(request):
+    return render(request, 'seo_marketing/about_view.html' )
+

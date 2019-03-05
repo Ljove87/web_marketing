@@ -145,5 +145,14 @@ footer{
     box-shadow: 8px 15px 20px 0px rgba(207,207,207,1);
 }
 
- /* Columns equal height */
+ /* Contact Form - MDBootstrap */
+
+ .collapse-content .fa.fa-heart:hover {
+    color: #f44336 !important;
+  }
+  .collapse-content .fa.fa-share-alt:hover {
+    color: #0d47a1 !important;
+  }
+
+
 
