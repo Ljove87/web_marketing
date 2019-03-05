@@ -154,5 +154,14 @@ footer{
     color: #0d47a1 !important;
   }
 
+  /* ABOOUT ME */
+
+#about-me {
+    margin-top: 100px;
+  }
+
+  .display-3 {
+      font-size: 33px;
+  }
 
 
