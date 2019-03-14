@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'seo_marketing.apps.SeoMarketingConfig',
+    'services',
 ]
 
 MIDDLEWARE = [
@@ -137,4 +138,6 @@ MEDIA_URL = '/media/'
 SEO_FOR_MODELS = [
     '<app>.models.<Model>',
 ]
+
+
 
